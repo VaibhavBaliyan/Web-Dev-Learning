@@ -1,0 +1,45 @@
+
+div{
+    /* background-color: red; */
+}
+
+ /* Class Selector */
+.red{
+    background-color: red;
+}
+
+/* ID selector */
+#green{
+    background-color: green;
+}
+
+/* Child Selector */
+div > p{
+    color: brown;
+}
+div > article > p{
+    color: blueviolet;
+}
+
+/* Descendent Selector */
+/* This makes every paragraph inside a div to be blueviolet color */
+div p{
+    /* color: blueviolet; */
+}
+
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Psudo Selectors */
+a:visited{
+    color: pink;
+
+}
+
+a:hover{
+    background-color: yellow;
+}
